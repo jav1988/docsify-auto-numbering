@@ -297,32 +297,6 @@ Markdown 文档：
 - 如果标题没有 `id`，插件会根据标题文本自动生成唯一 `id`。
 - 中文编号目前主要用于二级标题，支持 `一、` 到 `九十九、`，超过后会回退为数字。
 
-## 文件头示例
-
-建议在 `docsify-auto-numbering.js` 顶部添加如下文件头：
-
-```js
-/*!
- * docsify-auto-numbering.js
- * ------------------------------------------------------------
- * 一个用于 docsify 文档标题自动编号的插件。
- *
- * @author  马小战
- * @email   jav1988@qq.com
- * @version 1.0.0
- * @date    2026-05-23
- * @license MIT
- */
-```
-
-## 推荐项目结构
-
-```text
-docsify-auto-numbering/
-├── README.md
-├── docsify-auto-numbering.js
-└── LICENSE
-```
 
 ## 作者
 
